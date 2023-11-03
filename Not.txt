@@ -1,0 +1,26 @@
+4. Videoda Entitlayer katmanýna Concrete klasörü eklendi ve entityler tanýmlandý.
+
+5. Videoda Paket yükleme iþlemleri yapýldý.
+
+7. Videoda Classlar referanslarý verildi Data(Ent)-Busi(Data,Ent)-Dto(Ent)-WebApi(Hepsi)
+
+8. Videoda DataAccesLayer katmanýnda Concrete adýnda klasör tanýmlandý ve klasörün içine context class eklendi ardýnda database baðlantýlarý
+yapýldý ve oluþturulan entityler database entegre edildi.
+
+9. Videoda DataAccesLayer Abstract klasörü oluþturduk ve bu klasörün içine IGenericDal oluþturuldu ve bu IGenericDal içine ekleme silme ve güncelleme iþlemleri
+tanýmlandý ayriyetten entityler içinde özel interfaceler tanýmlandý özel durumlarda onlarýn içine tanýmlanacaktýr.
+
+10. Videoda GenericRepostiroy oluþturuldu Tanýmlanan IGenericDal daki ekleme silme güncelleme iþlemlerini çalýþtýrýp database kaydetmek için kodlama iþlemlerinin
+yapýldýðý yer.
+
+11. Videoda DataAccesLayer EntityFramwork klasörü oluþturduk bu tanýmlanan klasörün için entitylerimize özel tanýmlanan metodlarý burada 
+iþleme geçirmek için tanýmlanan bir katman þeklidir.
+
+12. Videoda BusinessAccesLayer katmanýnda Concrete klasörü ve Abstract klasörü oluþturduk bu klasörlerin içine tanýmlama yapýldý ilk baþta
+Abstract klasörünün içine IgenericService tanýmlandý sonra DataAccessLayer katmanýndaki IGenericDal daki ekleme silme güncelleme iþlemleri 
+bu classýn içinede tanýmlanmýþ oldu, ve her bir classýmýz için birer interface serviceleri de tanýmlandý özel methodlarý oluþturmak için
+
+13. Vidoda BusinessAccessLayer katmanýnda Concrete klasörü tanýmladýk concrete klasörünün içine ise Managerlarýmýzý tanýmladýk ve managerlarýn enregrelerini ise 
+IGenericService ile ekleme silme ve güncelleme iþlemlerini yaptýk ardýndan bu iþlemleri ele geçirmek için DataAccessLayer katmanýnda tanýmladýðýmýz her bir class
+için IStaffDal gibi örnek onun gibi methodlar Concretede manager içine tanýmlayýp generateconstracter geçtik ardýndan ekleme silme ve güncelleme iþlemleri için 
+gerekli kodlamalarý yazdýk.
