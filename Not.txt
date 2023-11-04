@@ -40,3 +40,23 @@ swagger yapabiliyormuyuz testini gerçekleþtirdik.
 19. Videoda Web sitemizi programýmýza ekledik ve scriptleri ve gerekli yollarý verdik.
 
 20. Videoda Web sitelerini partiallara ayýrdýk.
+
+21. Videoda Apiyi frontend tarafýna consume etmek için gerekli Programcs de consume iþlemi uygulandu bakabilirsin.
+
+22. Videoda WebUI StaffController tanýmlandý ve içine gerekli kodlar gelmesi için kodlar yazýldý ve bir index oluþturuldu. Kodlarý StaffControllerda inceleyebilirsin.
+Ayriyetten hangilerini çaðýrmamýz gerekiyorse sitemizde nelerin gözükmesi için bir model oluþturuldu.
+
+23. Videoda Tanýmlanan WebUý Tarafýnda Staff Index ile ilgili web sitemize gelmesi gereken iþlemleri yaptýk.
+
+24. Videoda StaffController bir ekleme view için AddStaff oluþturuldu ardýnda ekleme yapmasýný için gerekli kodlarý AddStaff içine yazdý ve oluþturulan View 
+tarafýnda AddStaff ise bir görünüm olarak gerekli kodlarý ve eklenecek iþlemleri aldý
+
+25. Videoda Silme iþlemi yaptýk WEbUI tarafýnda StaffController içinde DeleteStaff olaný içine gerekli kodlar yazýlýp ApiController tarafýndada StaffController 
+içinde delete olana HttpDelete parantez açýp id verdik.
+
+26. Videoda StaffController için bir get ve post etrebütü oluþturduk. Gerekli olan bir Model oluþturmamýz lazým UpdateStaffViewModel olarak bir tane oluþturduk.
+StaffControllerda ilk baþta get için yani personelin verilerini getirmek için get yerinin içini doldurduk.
+
+27. Videoda Staff iþlemlerinin komple güncellenmesi için gerekli iþlemler post tarafýnda yaptýk yani baþlýk olarakta HttPost tarafýnda oldu.
+
+28. Video Ýzle
