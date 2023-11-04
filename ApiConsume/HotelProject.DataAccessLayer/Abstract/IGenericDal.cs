@@ -12,7 +12,7 @@ namespace HotelProject.DataAccessLayer.Abstract
         void Insert(T t);//T içinde ekleme, silme, update, List türünde hepsini getirme ve Id ile sadece 1 tane getirmek için 
         void Delete(T t);
         void Update(T t);
-        List<T> GetList(T t);
+        List<T> GetList();
         T GetByID(int id);
     }
 }

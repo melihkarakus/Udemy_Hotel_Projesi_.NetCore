@@ -29,9 +29,9 @@ namespace HotelProject.BusinessLayer.Concrete
             return _subscribeDal.GetByID(id);
         }
 
-        public List<Subscribe> TGetList(Subscribe t)
+        public List<Subscribe> TGetList()
         {
-            return _subscribeDal.GetList(t);
+            return _subscribeDal.GetList();
         }
 
         public void TInsert(Subscribe t)

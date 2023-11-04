@@ -29,9 +29,9 @@ namespace HotelProject.BusinessLayer.Concrete
             return _testimonialDal.GetByID(id);
         }
 
-        public List<Testimonial> TGetList(Testimonial t)
+        public List<Testimonial> TGetList()
         {
-            return _testimonialDal.GetList(t);
+            return _testimonialDal.GetList();
         }
 
         public void TInsert(Testimonial t)

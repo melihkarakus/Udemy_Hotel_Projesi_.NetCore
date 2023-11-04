@@ -24,3 +24,19 @@ bu classýn içinede tanýmlanmýþ oldu, ve her bir classýmýz için birer interface s
 IGenericService ile ekleme silme ve güncelleme iþlemlerini yaptýk ardýndan bu iþlemleri ele geçirmek için DataAccessLayer katmanýnda tanýmladýðýmýz her bir class
 için IStaffDal gibi örnek onun gibi methodlar Concretede manager içine tanýmlayýp generateconstracter geçtik ardýndan ekleme silme ve güncelleme iþlemleri için 
 gerekli kodlamalarý yazdýk.
+
+14. Videoda swagggerýn nasýl bir arayüz ve nasýk çalýþtýðýna dair bir deneme yapýldý ve Controller klasöründe ApiController seçip bir boþ controller
+gelicek ve ardýndan içine get put delete gibi atrebütleri tanýmlayýp api de karþýmýza çýkardýk.
+
+15. Videoda listeleme ve ekleme iþlemleri ApiControllerda yapýldý.
+
+16. Videoda Güncelleme silme ve Id'ye göre getirme iþlemlerini yaptýk. 
+
+17. Videoda Bütün entitylerimiz için bir ApiController tanýmladýk ve onlarý birer get put ve delet etrabütleri ile çalýþtýrdýk. Yani ekelem silme ve güncelleme de
+swagger yapabiliyormuyuz testini gerçekleþtirdik.
+
+18. Videoda Temayý ekledik.
+
+19. Videoda Web sitemizi programýmýza ekledik ve scriptleri ve gerekli yollarý verdik.
+
+20. Videoda Web sitelerini partiallara ayýrdýk.

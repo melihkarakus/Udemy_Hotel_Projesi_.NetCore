@@ -12,7 +12,7 @@ namespace HotelProject.BusinessLayer.Abstract
         void TInsert(T t);//T içinde ekleme, silme, update, List türünde hepsini getirme ve Id ile sadece 1 tane getirmek için 
         void TDelete(T t);
         void TUpdate(T t);
-        List<T> TGetList(T t);
+        List<T> TGetList();
         T TGetByID(int id);
     }
 }
