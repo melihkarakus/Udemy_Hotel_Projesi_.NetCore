@@ -59,4 +59,16 @@ StaffControllerda ilk baþta get için yani personelin verilerini getirmek için ge
 
 27. Videoda Staff iþlemlerinin komple güncellenmesi için gerekli iþlemler post tarafýnda yaptýk yani baþlýk olarakta HttPost tarafýnda oldu.
 
-28. Video Ýzle
+28-. Videoda Testimonial Controllerda ekleme silme güncelleme iþlemlerini frontend tarafýný dinamik halini yaptýk. 
+
+29. Videoda DtoLayer katmanýnda dtolarýmýzý ekledik
+
+30. Videoda Automapper iþlemleri için WepApi kýsmýna bir managetpacket kurduk automapper için ardýndan automapperýn için bir klasör açtýk ve 
+gerekli mapplemeyi oraya yaptýk program.cs kýsmýna iþleme geçirdik. ve ayriyetten dtolarda hatalý yerleri kullanýcýya gösterme iþlemi için Dto
+klasöründe yer alan yere bakýlabilir.
+
+31. Videoda Room2Controller da swagger da listenin gelip gelmediðini kontrol etmek için gerekli ilk kodu yazma iþlemi yaptýk. 
+
+32. Videoda ekleme iþleminin kontrolünü yaptýk ekleme iþlemi ise AddRoomDtodan örnek alýnarak mapper kullanýlarak yapýldý.
+
+33. Videoda güncelleme iþlemi yapýldý kodlarý ise Room2 Controller da vardýr.
