@@ -72,3 +72,21 @@ klasöründe yer alan yere bakýlabilir.
 32. Videoda ekleme iþleminin kontrolünü yaptýk ekleme iþlemi ise AddRoomDtodan örnek alýnarak mapper kullanýlarak yapýldý.
 
 33. Videoda güncelleme iþlemi yapýldý kodlarý ise Room2 Controller da vardýr.
+
+34. Videoda Frontend kýsmýnda bir dto klasörü oluþturduk Model tutulan database sýnýflarýný dto klasöründe tutmuþ olacaðýz
+
+35. Videoda ilk baþta frontend tarafýnda automapper ekleme iþlemi yaptýk ki automapper ile mapleyelim dtoda tanýmladýðýmýz iþlemleri ardýndan 
+automapper da maplenen iþlemi program.cs tarafýnda da iþleme geçirmemiz gerekiyor. Controller tarafýnda ServiceController tanýmladýk ve ilk baþta
+index tarafýný ayarladýk ardýndan içini doldurmaya baþlayýp bir index view oluþturup bu verileri sitemizde tanýmladýk. AutoMapperda maplenen dtoyuda
+ServiceControllerda çaðýrmýþ oluyoruz.
+
+36. Videoda Hizmetlerin Eklenmesi için Gerekli Service içine kodlar yazýlmýþtýr. CreateServiceDto ile yardým alýnarak database verileri getirilip eklenme
+iþlemi yapýldý.
+
+37. Videoda Hizmetler Silinmesi için gerekli ServiceController içine kodlar yazýlmýþtýr.
+
+38. Videoda Hizmetler Güncellenmesi için gerekli ServiceController içine kodlar yazýlmýþtýr. Eðer ki herhangi bir model veya dto tanýmladýðýn database
+verilerinin bir tanesini bile boþ geçersen ekleme silme veya güncelleme yapmaz geçtiðin yerin view orada tanýmlarsan ayný iþlemi yapar. o yüzden
+dtoda veya model de tanýmlanan database verilerini viewda geçerken hangisi nerede tam tanýmlýyorsan hepsini ayný yerde geç
+
+39. Videoda kaldýk

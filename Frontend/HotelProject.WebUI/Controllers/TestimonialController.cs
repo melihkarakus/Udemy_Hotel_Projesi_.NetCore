@@ -16,13 +16,13 @@ namespace HotelProject.WebUI.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("https://localhost:44322/api/Testimonial");
-            if (responseMessage.IsSuccessStatusCode)
+            var client = _httpClientFactory.CreateClient();//Bir istemci oluştu
+            var responseMessage = await client.GetAsync("https://localhost:44322/api/Testimonial");//Adrese istek gönderdi
+            if (responseMessage.IsSuccessStatusCode)//Eğer istek doğruysa
             {
-                var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<TestimonialViewModel>>(jsonData);
-                return View(values);
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();//isteği jsondata atadık
+                var values = JsonConvert.DeserializeObject<List<TestimonialViewModel>>(jsonData);//ve ekrana jsondata çevirip normal tabloya yansıttık 
+                return View(values);//ekranda gösterdik
             }
             return View();
         }
