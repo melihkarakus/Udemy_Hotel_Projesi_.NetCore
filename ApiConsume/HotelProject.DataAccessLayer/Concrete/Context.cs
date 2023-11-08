@@ -1,4 +1,5 @@
 ﻿using HotelProject.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.DataAccessLayer.Concrete
 {
-    public class Context : DbContext //DBcontext miras alındı
+    public class Context : IdentityDbContext<AppUser,AppRole,int>   /*DbContext*/ //DBcontext miras alındı
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

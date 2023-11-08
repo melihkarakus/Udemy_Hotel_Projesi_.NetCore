@@ -89,4 +89,21 @@ iþlemi yapýldý.
 verilerinin bir tanesini bile boþ geçersen ekleme silme veya güncelleme yapmaz geçtiðin yerin view orada tanýmlarsan ayný iþlemi yapar. o yüzden
 dtoda veya model de tanýmlanan database verilerini viewda geçerken hangisi nerede tam tanýmlýyorsan hepsini ayný yerde geç
 
-39. Videoda kaldýk
+39. Videoda Identity Kütüphanesi için gerekli 2 tane asp.net core identity ve framework ýdentity ekledik ardýndan entitylayer katmanýna 
+concrete içine iki tane class tanýmladýk biri approle biride appuser gerekli propertüleri girdik. ardýndan DataAccesLayer katmanýna
+concrete içindeki contexte IdentityDbContext geçtik ve package manager consoledan migration uyguladýk.
+
+40. Videoda RegisterController ve RegisterDto eklendi iþlemi 41. Videoda yapacaðýz.
+
+41. Videoda Registercontroller için CreateNewUserDto dan bir dto parametresi tanýmladýk ardýndan RegisterController içinde Indexde bunu geçtik ve
+gerekli kodlarý yazmaya baþladýk ardýndan kendim parolalar için kullanýcýya hata mesajý yazdýrmak için Model içine CustomerIdentityValidator klasörüne
+bir class ekledim ve gerekli kodlarý içine geçtim. ve bunu Index View tarafýnda modelonly olarak asp-validator-summary içinde geçtim.
+ardýndan bunun çalýþmasý için program.cs tarafýnda gerekli kod olarak þu þekilde geçilmelidir.
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomerIdentityValidator>();
+identity kütüphanesinin eklenmesi yanýnda direk AddErrorDescriber<model tanýmlanan class geçilmelidir.>
+
+42. Videoda login iþlemi yapmak için LoginController tanýmladýk ve onun için bir Dto tanýmlamasý yapmamýz gerekiyor ve LoginUserDto tanýmlamýþ olduk 
+ardýndan LoginController ekranýnda Httppost etrabütün içine loginuserdto geçtik ve gerekli kodlama iþlemlerini yaptýk. Ardýndan ýndex tarafýnda 
+view içine geçtik tabiki unutmamýz gereken birþey dto kullanýlýyorsa mappingde kullanýlmasý gerekicek mapping de geçmiþ olduk.
+
+43. Videoda
