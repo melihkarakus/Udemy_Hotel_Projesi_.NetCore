@@ -139,3 +139,16 @@ oradan bir view oluþturduk ardýndan onun için httpost ve httpget þeklinde atrebü
 
 55. Videoda Footer Alaný düzenlendi.
 
+56. Videoda Booking sayfasý oluþuturuldu.
+
+57. Videoda EntityLayer katmanýnda Booking class oluþturuldu ve bu oluþturulan sýnýf DataAcces katmanýnda çaðrýldý, ve database yansýtýldý. 
+ardýndan abstract ve EntityFramework'e gerekli tanýmlamalar yapýldý. BusinessLayer katmanýnda abstract ve concrete klasörlerine tanýmlamalar yapýldý ve
+program.cs de tanýmlamalar geçirildi.
+
+58. Videoda Swagger için controller api tarafýnda tanýmlama yapýldý ve controller için dolduruldu. Ve Frontend tarafýnda Controller tarafýnda AddBooking
+tanýmlandý ve bir view oluþturuldu. Viewler düzenlendi.
+
+59. Videoda BookingController da ekleme ilþlemi yapýlacaktýr. AddBooking adýnda viewýmýz Tanýmladýðýmýz dto kýsmýndaki CreateBookingDto model olarak 
+çaðýrýp gereklii kodlarý ve asp-for, controller tanýmlamalarý yaptýk.
+
+60. Videoda.
