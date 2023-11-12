@@ -106,4 +106,36 @@ identity kütüphanesinin eklenmesi yanýnda direk AddErrorDescriber<model tanýmlan
 ardýndan LoginController ekranýnda Httppost etrabütün içine loginuserdto geçtik ve gerekli kodlama iþlemlerini yaptýk. Ardýndan ýndex tarafýnda 
 view içine geçtik tabiki unutmamýz gereken birþey dto kullanýlýyorsa mappingde kullanýlmasý gerekicek mapping de geçmiþ olduk.
 
-43. Videoda
+43. Videoda Default Controller oluþturduk ve Asýl temayý eklemiþ olduk.
+
+44. Videoda View Componentlere ayýrma iþleminin baþlangýcý.
+
+45. Videoda Layout komple partiallara ayýrdýk.
+
+46. Videoda Anasayfa düzenlemeleri yapýldý.
+
+47. Videoda About Entity eklendi. DataAccesLayer Katmanýnda eklenen Entityi Concrete klasörünün içinde contextde sql sayfamýza
+ekledik. Ardýndan Abstractta ve EntityFrameworkde eklenen entity geçildi. Geçilen Entity BusinessLayer katmanýnda hem Abstracta
+hemde Concerete sayfasýnda ekleme silme ve güncelleme iþlemleri yapabilmesi için eklenmesi yapýldý ardýndan WebApi katmanýnda 
+controller klasöründe Swagger için ekleme silme güncelleme testleri yapýldý. Frontend tarafýnda tanýmlanan components de yer
+alan aboutusPartial gidip gerekli iþlemleri yaptýk ve bunun ViewComponents de çaðýrma iþlemi yapýldý onlardan önce ise Frontend 
+tarafýnda dto tanýmlandý.
+
+48. Videoda Frontend tarafýnda our rooms yaptýk onun için bir dto tanýmlandý sadece ve Componentd de tanýmlanan dto ile çaðýrýlma 
+iþlemi yapýldý bir sonraki iþlemde componentsde Model þeklinde çaðýrýlýp foreach ile döndürülüp ekledikçe gelmesini saðladý.
+
+49. Videoda Componentsde ve ViewComponents olan Video düzenlemesi hale getirdik.
+
+50. Videoda Componentsde ve ViewComponents olan Service dinamik hale getirdik.
+
+51. Videoda Componentsde ve ViewComponents olan Testimoniali dinamik hale getirdik.
+
+52. Videoda Componentsde ve ViewComponents olan Teams dinamik hale getirdik.
+
+53. Videoda Componentsde ve ViewComponents olan Subscribe dinamik hale getirdik. Subscribe için Default Controller da içine tanýmlama yaptýk ve
+oradan bir view oluþturduk ardýndan onun için httpost ve httpget þeklinde atrebütler ile gerekli iþlemleri yaptýk.
+
+54. Videoda Subscribe buton sorunu vardý onu halletik
+
+55. Videoda Footer Alaný düzenlendi.
+
