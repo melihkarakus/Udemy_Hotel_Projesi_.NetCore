@@ -151,4 +151,46 @@ tanýmlandý ve bir view oluþturuldu. Viewler düzenlendi.
 59. Videoda BookingController da ekleme ilþlemi yapýlacaktýr. AddBooking adýnda viewýmýz Tanýmladýðýmýz dto kýsmýndaki CreateBookingDto model olarak 
 çaðýrýp gereklii kodlarý ve asp-for, controller tanýmlamalarý yaptýk.
 
-60. Videoda.
+60-61 Videoda Butonlar eklendi ve düzenlendi.
+
+62. Videoda BookingAdmin controller ApprovedReservations isimler baþlýðýn içeriðindeki metodlarý yazdýk.
+
+63. Videoda Entitye özel metod tanýmladýk. Abstract içinde IbookingDal da olan yere bir özgü metod tanýmladýk ve EfBookingDal da ise bunu çaðýrdýk ve içine
+gerekli metodlarý yazdýk ardýndan BusinessLayer Katmanýnda BookingService IbookingDal da tanýmlanan metodu Service içinde çaðýrdýk baþýna T koyaraktan
+farklýlýðýný saðlasýn diye bunuda BookingManager da iþleme geçirdik ve WepApi kýsmýnda BookingControllerda Ýþleme aldýk.
+
+64. Videoda ise Attribütlere birden çok nasýl kullanýlýr öðrenildi. Web Api kýsmýnda BookingController içinde HTTPPUT dan 2 tane vardý onlara alýnanb
+baþlýðý tanýmladýk.
+
+65. Videoda Entitye özel metod tanýmladýk. Abstract içinde IbookingDal da olan yere bir özgü metod tanýmladýk ve EfBookingDal da ise bunu çaðýrdýk ve içine
+gerekli metodlarý yazdýk ardýndan BusinessLayer Katmanýnda BookingService IbookingDal da tanýmlanan metodu Service içinde çaðýrdýk baþýna T koyaraktan
+farklýlýðýný saðlasýn diye bunuda BookingManager da iþleme geçirdik ve WepApi kýsmýnda BookingControllerda Ýþleme aldýk.
+
+Önemli!!
+69. Videoda RapidApi diye bir klasör oluþturduk ve onada controller da bir controller oluþturduk 100 filmi rapid api ile çekmek için 
+ardýndan rapid api web sitesinde c# httpclient þeklinde çekme iþlemi için koduna baktým. Ardýndan bunu controller üzerinde tanýmladým ve bir adet view
+model oluþturdum. Neleri çekmem gerektiðini bilmek için sonra Controller bir view oluþturdum ve ondan ViewModel tanýmladýðýmý model ve list þeklinde
+çaðýrdým ve gerekli iþlemleri web siteme yansýmasý için frontend kodlarýný yazdým.
+Önemli!!
+70. Videoda RapidApi diye bir klasör oluþturduk ve onada controller da bir controller oluþturduk. Bu sefer doviz kuru çekmek için Controller oluþturduk.
+ardýndan Controller da c# httpclient þeklinde rapidapi web sitesinde kodunu controllera entegre ediyoruz ve bir view model oluþturuyoruz view modeli
+oluþturduktan sonra edit den özel yapýþtýrma sistemi var ordan json olarak çevirdik. Ardýndan Index tarafýnda tanýmlanan model list þeklinde web sitesine
+frotend kodlarýyla yansýttýk.
+Önemli!!
+72. Videoda RapidApi diye bir klasör oluþturduk ve onada controller da bir controller oluþturduk. Bu sefer otellere göre çekmek için Controller oluþturduk.
+ardýndan Controller da c# httpclient þeklinde rapidapi web sitesinde kodunu controllera entegre ediyoruz ve bir view model oluþturuyoruz view modeli
+oluþturduktan sonra edit den özel yapýþtýrma sistemi var ordan json olarak çevirdik. Ardýndan Index tarafýnda tanýmlanan model list þeklinde web sitesine
+frotend kodlarýyla yansýttýk. 
+Önemli!!
+73. Videoda BookingLocation Controller tanýmlandý ve yine rapidapiden c# httpclient ile lokasyon verilerini çektik, ve bunu ýndexde tek bir lakasyonu 
+alabilmek için gerekli düzenleme frontend kodlarý ile yapýldý fakat þöyle ki controllerde da bunu çaðýrdýk ki viewmodele tanýmlananý ve bide viewmodeli
+ýndexde çaðýrdýk verileri Model View de ki proplarý ise rapidapi result þeklinde kopyaladýk ve model classýnda özel yapýþtýrma ile çaðýrdýk.
+Önemli!!
+74. Videoda BookingLocation controller da if methodu tanýmladýk ama class içine bir method tanýmladýk string türünde cityname ile ardýnda if else methodu
+ile iþlem yapýlan kodlarý döngüye aldýk. cityName ise RequestUri içindeki get iþlemi yapýlan yerde ise dolar tanýmlayýp class verdiðimiz methodu orada 
+tanýmladýk eðer ki else yanlýþ ise bize direk parisin kodunu döndürücektir.Index tarafýnýda kontrol et orada farklý bir tanýmlama þekli yapýldý.
+Önemli!!
+75. Videoda BookingByCity Controller da 74. Vidoda id ile getirilen otelleri BookingByCity sayfasýnda Bookinglocation idsini verdi ve bizde BookingByCity
+ile bunun verilen idnin otellerini sýrayla yazdýrdýk ekranýmýza. Ýncele Önemli dersler Baþýna önemli koyduklarým.
+
+76. Videoda

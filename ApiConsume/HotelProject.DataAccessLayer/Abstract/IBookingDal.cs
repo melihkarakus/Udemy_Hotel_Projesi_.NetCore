@@ -10,5 +10,7 @@ namespace HotelProject.DataAccessLayer.Abstract
     //Özel Tanımlar için oluşturuldu.
     public interface IBookingDal : IGenericDal<Booking>
     {
+        void BookingStatusChangeApproved(Booking booking);
+        void BookingStatusChangeApprovedID(int id);
     }
 }
