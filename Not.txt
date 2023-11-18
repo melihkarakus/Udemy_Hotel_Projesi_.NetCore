@@ -193,4 +193,21 @@ tanýmladýk eðer ki else yanlýþ ise bize direk parisin kodunu döndürücektir.Index
 75. Videoda BookingByCity Controller da 74. Vidoda id ile getirilen otelleri BookingByCity sayfasýnda Bookinglocation idsini verdi ve bizde BookingByCity
 ile bunun verilen idnin otellerini sýrayla yazdýrdýk ekranýmýza. Ýncele Önemli dersler Baþýna önemli koyduklarým.
 
-76. Videoda
+76. Videoda JWT bir güvenlik amacý ile kullanýlan bir ara gibi düþünebiliriz
+
+77. Videoda JWT paketi kuruldu JWT Barear paketi kuruldu.
+
+78. Videoda JWT program.cs de konfigürasyon edilmesini öðrendik program.cs deki kodlara bakabilirsin.
+
+79. Videoda JWT oluþturmak için bir model klasörü tanýmlayýp model klasörünün içine class yazýp içine kodlarýmýzý geçirdik.
+
+80. Videoda DefaultController oluþturuldu ve postmande bu denendi. Deneme þekli þu þekilde http://localhost:15223/api/Default/Test bu þekilde denendi
+swaggerda alýnan local adý: localhost:15223/ kendi apimiz: api / Controller ismi: Default / sýnýfýn ismi: Test
+
+81. Autohorize kullanýmý öðrendik CrateToken olduðu yerde vardýr. [Authorize]
+
+82. Videoda Program.cs Closeskew parametresini kullanmamýz gerekti. Yoksa saniye veya saat olaylarý iþe yaramayacaktýr.
+
+83. Videoda CreateToken classýnda Admin için bir token oluþturduk. 
+
+84. Videoda test için isim düzenlemeleri ve düzenleme yapýlacak.
