@@ -16,10 +16,10 @@
         <!-- Header Start -->
         @await Component.InvokeAsync("_NavbarPartial")
         <!-- Header End -->
-        @await Component.InvokeAsync("_BookingCoverPartial")
+        @await Component.InvokeAsync("_ContactCoverPartial")
         <!-- Booking Start -->
         <!-- Booking End -->
-        @await Html.PartialAsync("AddBooking")
+        @await Html.PartialAsync("/Views/Contact/SendMessage.cshtml")
         <!-- Newsletter Start -->
         @await Html.PartialAsync("/Views/Default/_SubscribePartial.cshtml")
         <!-- Newsletter Start -->
@@ -35,4 +35,3 @@
 </body>
 
 </html>
-

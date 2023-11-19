@@ -211,3 +211,44 @@ swaggerda alýnan local adý: localhost:15223/ kendi apimiz: api / Controller ismi
 83. Videoda CreateToken classýnda Admin için bir token oluþturduk. 
 
 84. Videoda test için isim düzenlemeleri ve düzenleme yapýlacak.
+
+87. Videoda EntityLayer katmanýna Guest eklendi.
+
+88. Videoda Triggerler yazýldý. Triggerlar ve toplama iþlemleri dinamik hale geldi.
+--Update Abouts set RoomCount =(select count (*) from Rooms), 
+--StaffCount = (select count(*) from Staffs),
+--CustomerCount = (select count(*) from Guests)
+
+--Select * from Abouts
+
+Triggerlar SQL yazýlanlar 
+--Create Trigger Roomdecrease
+--On Rooms
+--After Delete 
+--As
+--Update Abouts set RoomCount = RoomCount-1 = Trigger bir azaltma 
+
+--Create Trigger Roomincrease
+--On Rooms
+--After Insert 
+--As
+--Update Abouts set RoomCount = RoomCount+1 = Trigger bir arttýrma 
+
+--Drop Trigger Roomdecrease = trigger silme iþlemi için
+
+90. Videoda EntityLayer katmanýnda Contact sýnýfý oluþturuldu. DataAccessLayer katmanýnda Contact klasöründeki context de Contact database ekleme iþlemi
+yapýldý. Abstract klasörü ve EntityFramework klasörlerine contact bilgileri geçildi ve tanýmlamalarý yapýldý. BusinessLayer katmanýnda ise Abstract ve 
+Concrete klasörlerinin içine tanýmlamalar yapýldý. WepApi katmanýnda Controller geçildi ve Controllerda tanýmlama iþlemleri yapýldý ve Program.cs 
+Contact geçilmesi yapýldý.Frontend tarafýnda Controllerda ContactController oluþturuldu ve bir ýndex view oluþturduk. ardýndan booking ýndexden örnek aldýk
+ve _ContactCoverPartial adýnda bir partialview oluþturduk. 
+
+91. Videoda ContactController içine bize mesaj yapýlabilmesi için gerekli httpget ve httppost metodlarýnýn altýna gerekli gönderme mesajý kodlarý yazýldý.
+Ardýnda bir CreateContactDto oluþturduk Entitylayer tanýmlanana propörtüler yazýldý. SendMessage View oluþturuldu ve Contact için model olarak en üste bir
+model tanýmlandý CreateContactDto olarak verdik ardýndan view kopyala yapýþtýr yaptýk ve sonrasýnda form method=post asp-action=SendMessage asp-controller=Contact
+olarak form yazýldý ve türkçeleþtirme iþlemleri yaptýktan sonra name olarak CreateContactDto tanýmlanan propörtüleri name þeklinde yazdýk.
+
+92. Videoda Google Haritalarda istediðimiz yeri seçip paylaþa týklayýp harita yerleþtirme seçeneðine seçiyoruz ve html kopyala diyip ifarame src içindeki
+haritayý kopyalayýp bizim google haritamýza yerleþtiriyoruz iframe src týrnak içindeki google haritayý. kendi týrnak içimizdeki google haritayla 
+deðiþtiriyoruz.
+
+93. Videoda Devam.
