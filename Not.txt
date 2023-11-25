@@ -251,4 +251,52 @@ olarak form yazýldý ve türkçeleþtirme iþlemleri yaptýktan sonra name olarak Crea
 haritayý kopyalayýp bizim google haritamýza yerleþtiriyoruz iframe src týrnak içindeki google haritayý. kendi týrnak içimizdeki google haritayla 
 deðiþtiriyoruz.
 
-93. Videoda Devam.
+93-94 Videoda hata alýndý tekrar bakýlcak adminaboutcontroller güncelleme iþlemi
+
+95. Videoda Odalar Güncelleme iþlemi silme ve ekleme iþlemleride yapýldý. 
+
+96. Videoda Guest kýsmýnýn Dtolarý oluþturuldu, hem api controller ve web uý controller oluþturdu. DataAccessLayer katmanýnda 
+Abstract ve Ef içine guest classlarý eklendi BusinessLayer katmanýnýn içinde bulunan Abstract ve Concrete klasörlerinin içine de guest classlarý eklendi. Api Controllerda bunlarýn Swagger da 
+denemesi ve çalýþmasý için gerekli kodlama parametleri geçildi. WebUI Controller tarafýnda kodlama yapýldý. 
+
+97. Videoda Index ve Ekleme iþlemi Viewleri oluþturup Web sitesine yansýtýldý. Dinamik hale getirildi. 
+
+98. Videoda Paket olarak FluentValidation yüklendi ve bir klasör oluþturuldu adýna ardýndan sýnýf oluþturduk ve ctor ile sýnýf geçtik. Kodlara bakabilirsin
+
+99. Videoda Guest Controller da if kullanýlarak Kurallar geçilmesi saðlandý, ve AddGuest Viewýna gerekli asp-validation-rules eklendi.
+
+100. Videoda Program.cs Tanýmlama yapýldý açýklama satýrlarýný oku
+
+101. Videoda Update için yani Guest güncellemek için gerekli kurallarý ekleme iþlemi yaptýk. Validator Klasörünün içne UpdateGuestValidator sýnýfý eklendi
+ardýndan gerkeli tanýmlama yapýldý. Controllerda çaðrýldý ve view da kural geçildi.
+
+102. Videoda ContactController oluþturuldu yani mail sayfasý oluþturuldu. Ardýndan View yani web sitesi tasarýmý oluþturuldu.
+
+103. Videoda Ýlk baþta listeleme yapmak için dto oluþturduk ardýndan BusinessLayer ContactManager geldik oradaki listeleme iþlemine kod yazdýk.
+ContactController Api kýsmýnda Swagger için çalýþmasý gerekli olduýðý için burayada gerekli httpget komutu yazýlmýþtýr.
+AdminContactController WEbuý kýsmýnda gerekli kodlama iþlemleri yaptýk listeleme iþlemi için 
+
+104. Videoda EntityLayerdan Bir SendMessage Class oluþturuldu içeriði yazýldý. DataAccesLayer gelindi Concrete SendMessage database yansýmasý için 
+yazýldý. Abstract ve EntityFramework klasörlerine ISendMessageDal interface ve EfSendMessageDal class olarak geçildi. BusinessLayer katmanýnda ise 
+Abstract ve Concrete ISendMessageService interface ve SendMessageManager class olarak geçildi ve içlerine kodlarýmýzý yazmýþ olduk. Program.cs de 
+.net 6.0 ve üzerilerde geçilmesi gereken DataAccesLayer ve BusinesLayer tanýmlanan sýnýflar geçilmesi gerekiyor. ApiControllerda SendMessageController
+oluþturuldu ve ekleme silme güncelleme iþlemleri gerçekleþtirildi. AdminContactController sayfasýnda Ekleme iþlemi kodlarý yapýldý. CreateSendMessageDto
+katmanýndanda Database verilerine ulaþtýk.
+
+105. Videoda AdminController tarafýnda SendMessage View oluþturuldu ve Gerekli web site düzenlemeleri yaptýk. AdminContanctcControllerda Mail gönderme
+iþlemi yaptýk SendMessage da Ardýndan bir view oluþturduk bu view oluþturduktan sonra dto oluþturduk çünkü veritabaný verilerini siteye çekip girilen 
+parametleri veritabanýna kaydetmek için.
+
+107. Videoda Gönderilen mesajlar sayfasý oluþturuldu. SendBox View oluþturuldu gerekli iþlemler yapýldý. ContactControllerda vardýr.
+
+110. Videoda Mesaj detaylarý sayfasý AdminContactController ekranýnda bakabilirsin sadece oluþturduk sayfasý. 
+
+111. Videoda MessageDetails içine id gelecek þekilde ayný güncelleme iþlemindeki gibi seçip o id deki getirmek istediðim iþlemleri getirmek için kodlama 
+yapýldý. ContactDto içinde SendMessage için yapýlan bir dto var GetMessageByIDDto burada database verilerini çekmek için parametreleri tanýmladýk.
+MessageDetails kýsmýnada Dtodaki verileri çaðýrýp Sayfaya karþýlaþtýrdýk.
+
+112. Videoda Gönnderilen mesajlarýn detay sayfasý oluþturuldu. ve onunda bir dto ile oluþturulmuþ oldu. view ekranýnda o dtodan yararlanýp detaylarýný 
+sitede göstermiþ olduk.
+
+113. AdminSideBar düzenleme yapýldý.
+

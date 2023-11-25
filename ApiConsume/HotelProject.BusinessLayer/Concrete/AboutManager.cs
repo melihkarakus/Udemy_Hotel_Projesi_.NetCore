@@ -1,5 +1,6 @@
 ﻿using HotelProject.BusinessLayer.Abstract;
 using HotelProject.DataAccessLayer.Abstract;
+using HotelProject.DataAccessLayer.Migrations;
 using HotelProject.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
