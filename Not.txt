@@ -298,5 +298,19 @@ MessageDetails kýsmýnada Dtodaki verileri çaðýrýp Sayfaya karþýlaþtýrdýk.
 112. Videoda Gönnderilen mesajlarýn detay sayfasý oluþturuldu. ve onunda bir dto ile oluþturulmuþ oldu. view ekranýnda o dtodan yararlanýp detaylarýný 
 sitede göstermiþ olduk.
 
-113. AdminSideBar düzenleme yapýldý.
+113. Videoda AdminSideBar düzenleme yapýldý.
 
+114. Videoda Paket yükleme iþlemi gerçekleþtirildi. mimeKit yüklendi. AdminMailController oluþturuldu ve mail gönderme iþlemi kodlarý yazýldý.
+Index view oluþturuldu ve gerekli Frontend kodlarý yazýlarak bir sayfa tasarlandý.
+
+117. Videoda bir image yükleme iþlemi yapmamýz gerekmektedir. bunu için apicontroller da bir controller oluþturuldu ve gerekli kodlama iþlemleri yazýldý.
+
+119. Videoda WebUI controller da bir controlelr oluþturduk AdminFileImageController diye onun içine gerekli kodlarýmýzý yazýp açýklama satýrlarý var
+detaylý bakabilirsin sonrasýnda bir ýndex oluþturup gerekli frontend kodlarý eklemiþ olduk.
+
+120. Videoda Frontend tarafýnda eklenip eklenmediði kontrol edilmiþtir. 
+
+121. Videoda Bir api kýsmýnda controller AdminFileController oluþturuldu ve gerekli kodlarý girildi tekrardan bakýlacaktýr. Ardýndan WebUI tarafýnada
+bir controller oluþturuldu MVCController onun içinede kodlamalar girildi bakmalýsýn. Indexde AdminFileImage gibi bir web arayüzü oluþturuldu.
+
+122. Videoda 
