@@ -19,10 +19,23 @@ namespace HotelProject.WebUI.Controllers
         {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("https://localhost:44322/api/Contact");
+
+            //Gelen mesajı toplama işlemi için gerekli kodlama alanıdır.
+            var client2 = _httpClientFactory.CreateClient();
+            var responseMessage2 = await client2.GetAsync("https://localhost:44322/api/Contact/GetContactCount");
+
+            //Giden mesajları toplamı işlemi için gerekli kodlama alanıdır.
+            var client3 = _httpClientFactory.CreateClient();
+            var responseMessage3 = await client3.GetAsync("https://localhost:44322/api/SendMessage/GetSendMessageCount");
+
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
                 var values = JsonConvert.DeserializeObject<List<InboxContactDto>>(jsonData);
+                var jsonData2 = await responseMessage2.Content.ReadAsStringAsync();//mesajı sayısını response olarak çeviri jsondata 2 atadı
+                ViewBag.ContactCount = jsonData2;//jsondata2 deki verileri viewbag atadı. Inbox da viewbag çağrıldı.
+                var jsondata3 = await responseMessage3.Content.ReadAsStringAsync();
+                ViewBag.SendMessageCount = jsondata3;
                 return View(values);
             }
             return View();
@@ -97,5 +110,18 @@ namespace HotelProject.WebUI.Controllers
             }
             return View();
         }
+
+        //public async Task<IActionResult> GetContactCount()
+        //{
+        //    var client = _httpClientFactory.CreateClient();
+        //    var responseMessage = await client.GetAsync("https://localhost:44322/api/Contact/GetContactCount");
+        //    if (responseMessage.IsSuccessStatusCode)
+        //    {
+        //        var jsonData = responseMessage.Content.ReadAsStringAsync();
+        //        ViewBag.Data = jsonData;
+        //        return View();
+        //    }
+        //    return View();
+        //}
     }
 }

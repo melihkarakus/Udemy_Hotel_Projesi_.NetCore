@@ -313,4 +313,28 @@ detaylý bakabilirsin sonrasýnda bir ýndex oluþturup gerekli frontend kodlarý ekl
 121. Videoda Bir api kýsmýnda controller AdminFileController oluþturuldu ve gerekli kodlarý girildi tekrardan bakýlacaktýr. Ardýndan WebUI tarafýnada
 bir controller oluþturuldu MVCController onun içinede kodlamalar girildi bakmalýsýn. Indexde AdminFileImage gibi bir web arayüzü oluþturuldu.
 
-122. Videoda 
+122. Videoda Kullanýcý giriþ yapmadan bazý web sayfalarýna giriþ yapamamasý için gerekli kodlama Program.cs tarafýndan yazýldý.
+
+123. Videoda Eðer kullanýcý o web sayfasýna ulaþamýyor ise Logine yönlendirilmesi gerekiyor bununda kodu program.cs tarafýnda verilmiþtir. Hata ile 
+karþýlaþabilirsin bununda olayý Gerekli gidecek yere AllowAnonymouse verilmesi gerekmektedir.
+
+124. Videoda gerekli web sayfalarýna gerekli allowananoums kullanýlmýþtýr. 
+
+125. Videoda Error404 sayfasý oluþturuldu sayfa bulunamadý hatasý ile karþýlaþtýðýnda kullanýcý düzenli ve güzel bir error sayfasý karþýlýyor olacaktýr.
+
+126. Videoda Bize gönderilen mesajý sayýsý ekrana yansýtmak için IContactDal bir metod tanýmlandý. EfContactDal da metoda kod eklendi. BusinessLayerKatm.
+IContactService Dataacceslayerda tanýmlanan klasördeki IcontactDal mirasýný alacaðýný için ona benzer baþýna sadece T koyarak farklý olduðunu belirtmek 
+için gerekli metod tanýmlandý. IContactManager sýnýfýnda gerekli kod iþlemi geçildi ve ContactController api tarafýnda get isteði bulunarak ekrana 
+yansýtýldý.
+
+127. Videoda Bize gönderilen mesajý sayýsý ekrana yansýtmak için ISendMessageDal bir metod tanýmlandý. EfMessageDal da metoda kod eklendi. BusinessLayerKatm.
+ISendMessageService Dataacceslayerda tanýmlanan klasördeki ISendMessageDal mirasýný alacaðýný için ona benzer baþýna sadece T koyarak farklý olduðunu 
+belirtmek için gerekli metod tanýmlandý. ISendMessageManager sýnýfýnda gerekli kod iþlemi geçildi ve SendMessageController api tarafýnda get isteði 
+bulunarak ekrana yansýtýldý. 
+
+128. Videoda Web sitesinde mesajlar kýsmýna gerekli bir kaç kod parçacýðý eklendi bunu da AdminContactControllerda Inbox Sýnýfýnýn içinde ResponseMessage2
+ile çalýþan kodu inceleyebilirsin.
+
+129. Videoda Web sitesindeki mesajlar kýsmýnda gerekli kod parçasý AdminContactController Inbox içinde ResponseMessage 3 olana bakabilirsin.
+
+130. Videoda 
