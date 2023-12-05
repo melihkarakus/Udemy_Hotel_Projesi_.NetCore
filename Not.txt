@@ -337,4 +337,30 @@ ile çalýþan kodu inceleyebilirsin.
 
 129. Videoda Web sitesindeki mesajlar kýsmýnda gerekli kod parçasý AdminContactController Inbox içinde ResponseMessage 3 olana bakabilirsin.
 
-130. Videoda 
+130. Videoda CategoryMessage ile Contact arasýnda bir iliþki kurulmuþtur. 
+
+131. Videoda DataAccesLayer ve Businesslayer katmanlarýndaki klasörlere yeni tanýmlanan sýnýf için gerekli metodlar geçildi. Program.cs bilgileri geçildi
+Api tarafýnda Controller geçildi. Consume edildi.
+
+132. Videoda listeleme yapabilmek için dto oluþturuldu. WebUI tarafýna ContactController içindeki indexe Anasayfada yani bu iþlem oradaki indexe 
+listeleme iþlemi uygulandý ilk baþta ardýndan dropdown listelenen iþlemler taþýndý.
+
+133. Videoda Hata alýndý bakýlcak 
+
+134. Videoda Swagger yapmadan identity kullanarak kullanýcýlarý listeledik.
+
+135. Videoda Kullanýcýlarý listeleme iþlemini webUI tarafýnda listelemiþ olduk.
+
+136. Videoda WorkLocation entitylayer oluþturuldu appuser ile iliþkilendirildi ve WebUI tarafýnda RegisterControllerda verilen bazý parametreler geçildi
+Asp.net Users sýnýfý için 
+
+137. Videoda Worklocation Tablosunu web sitesine yansýttýk.
+
+138. Videoda WorkLocation gerekli DataAccesLayer ve BusinessLayer katmanlarýnýn içindeki klasörlere geçtik ve Api tarafýndaki controller iþlemleri yaptýk
+
+139. Vidoeda WebUI tarafýnda apiyi consume ediyoruz. api consumedan sonra listeleme iþlemi yaptýk. Index verileri çekip web sitesine çekmiþ olduk.
+
+140. Vidoeda DataAccesLayer da abstract ve entityframework appuser için sýnýflar oluþturuldu. BusinessLayer katmanýnda abstract ve concrete klasörleri
+ile ilgili bir sýnýfta tanýmladýk appuser için sonrasýnda api consume iþlemi uygulandý. 
+
+148. Videoda UserList indexinde karar merceði kuruldu if if kullanýldý.	
