@@ -22,7 +22,7 @@ namespace HotelProject.WebApi.Controllers
         //    return Ok(values);
         //}
         [HttpGet]
-        public IActionResult AppUserList2()
+        public IActionResult AppUserList()
         {
             var values = _appUserService.TGetList();
             return Ok(values);

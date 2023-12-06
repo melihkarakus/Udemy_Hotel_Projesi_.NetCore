@@ -364,3 +364,8 @@ Asp.net Users sýnýfý için
 ile ilgili bir sýnýfta tanýmladýk appuser için sonrasýnda api consume iþlemi uygulandý. 
 
 148. Videoda UserList indexinde karar merceði kuruldu if if kullanýldý.	
+
+!!!!Önemli
+152. Videoda Userlarý bir lokasyona göre getirip listeleme iþlemi yapmaya çalýþtýk ilk baþta kendimiz listeledik normal þekilde sonrasýnda Api tarafýnda
+bir seçmeli kod yazdýk. AppUserWorkLocation kýsmýna bir kod yazýldý ÝNCELE ardýndan View oluþturuldu api tarafýnda model klasörünün altýnda sonrasýnda 
+gerekli view çaðrýldý ve select ile seçilip veriler tolist ile listelendi.
