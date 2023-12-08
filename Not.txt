@@ -369,3 +369,27 @@ ile ilgili bir sýnýfta tanýmladýk appuser için sonrasýnda api consume iþlemi uyg
 152. Videoda Userlarý bir lokasyona göre getirip listeleme iþlemi yapmaya çalýþtýk ilk baþta kendimiz listeledik normal þekilde sonrasýnda Api tarafýnda
 bir seçmeli kod yazdýk. AppUserWorkLocation kýsmýna bir kod yazýldý ÝNCELE ardýndan View oluþturuldu api tarafýnda model klasörünün altýnda sonrasýnda 
 gerekli view çaðrýldý ve select ile seçilip veriler tolist ile listelendi.
+
+155. Videoda Dashboard için bir index sayfasý düzenlendik ve o index sayfasý web tasarýmýný hallettik.
+
+156 Videoda Dashboard head ve dashboardun weidget partialýný ayýrdýk.
+
+157. Dashboard ekranýnda çalýþanlarý toplayýp dashboard yansýtmak istiyoruz. Bunun için IstaffDal özgü bir method tanýmladýk ve EfstaffDal da bunu implament
+ettik ardýndan da gerekli kodu Ef içine tanýmladýk.Bunu BusinessLayer da abstract ve Concrette geçtik ControllerApi de bunu tanýmladýk ve gerkeli kod 
+parçacýðýný swagger da geçmiþ odluk.
+
+158. Videoda Staff Count için ViewComponent içini doldurduk ve tanýmlanan jsondatayý viewbag ile taþýyýp web sitemize göstermiþ olduk.
+
+161. Videoda DashboardWidget gelmesi gereken verilerin toplamýný yapýp ardýndan istenen veriyi web sitesine yansýttýk 157. Videoda yapýlanýn aynýlarý
+diðer getirmek istediðim verileride yapmýþ olduk.
+
+162. Videoda DashboardLast4StaffList component içine son 4 çalýþaný getirmek için gerekli kodlarý ilk baþta DataAccess katmanýndaki abstract ve entity de
+staff için özel iþlemler geçildi Efde staff için son 4 seçeneði seçilmesi için kodlama yapýldý. BusinessLayer katmanýnda da Abstract ve Concrete klasörleri
+içine geçildi sonrasýnda StaffController api tarafýnda gerekli swaggera çaðrýlmasý için kod yazýldý ve son olarak Componentte listeleme iþlemi yaptýðýmýz 
+için gerekli kodlama geçildi.
+
+163. Videoda 162. Videodanun aynýsý yapmýþ bulunmaktayýz 
+
+164. Videoda DashobardLast6bookings View kýsmýný düzenledik Componentsdeki _DashboardLast6Booking olarak düzenledik ve if ile þartlarý belirledik.
+
+165. Videoda Dashboard componentte abone verilerimizi çekme iþlemi yapacaðýz

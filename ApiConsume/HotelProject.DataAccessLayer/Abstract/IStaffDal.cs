@@ -10,5 +10,7 @@ namespace HotelProject.DataAccessLayer.Abstract
     //Staff için özel tanımlamalar buradan olacaktır.
     public interface IStaffDal : IGenericDal<Staff>
     {
+        int GetStaffCount();
+        List<Staff> Last4Staff();
     }
 }

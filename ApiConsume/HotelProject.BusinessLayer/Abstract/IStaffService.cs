@@ -10,5 +10,7 @@ namespace HotelProject.BusinessLayer.Abstract
     //Tanımlanan Kendine özgü sınıflar için burayada işlem girilmesi gerekiyor.
     public interface IStaffService : IGenericService<Staff>
     {
+        int TGetStaffCount(); 
+        List<Staff> TLast4Staff();
     }
 }

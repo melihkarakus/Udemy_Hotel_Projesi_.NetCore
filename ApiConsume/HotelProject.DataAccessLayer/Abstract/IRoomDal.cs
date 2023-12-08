@@ -10,5 +10,6 @@ namespace HotelProject.DataAccessLayer.Abstract
     //Room için özel tanımlamalar buradan olacaktır.
     public interface IRoomDal : IGenericDal<Room>
     {
+        int RoomCount();
     }
 }

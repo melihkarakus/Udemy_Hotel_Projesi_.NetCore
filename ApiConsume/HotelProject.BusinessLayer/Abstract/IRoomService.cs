@@ -10,5 +10,6 @@ namespace HotelProject.BusinessLayer.Abstract
     //Tanımlanan Kendine özgü sınıflar için burayada işlem girilmesi gerekiyor.
     public interface IRoomService : IGenericService<Room>
     {
+        int TRoomCount();
     }
 }
