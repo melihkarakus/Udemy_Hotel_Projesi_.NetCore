@@ -393,3 +393,12 @@ için gerekli kodlama geçildi.
 164. Videoda DashobardLast6bookings View kýsmýný düzenledik Componentsdeki _DashboardLast6Booking olarak düzenledik ve if ile þartlarý belirledik.
 
 165. Videoda Dashboard componentte abone verilerimizi çekme iþlemi yapacaðýz
+
+168. Videoda Ýnstagram takipçilerini api ile çekebilmek için ilk baþta rapid Api sitesinde instagram profile apisini bulup abone olduktan sonra 
+rapid apideki kodu kopyalayýp c# httpclient þeklinde kopyaladýðýmýzda bunu çaðýrmak istediðimiz viewcomponent yapýþtýrabiliriz bir veri çekeceðimiz
+için gerekli deserialez kodlarý ve kod yapýsý _DashboardSubscribePartial ekranýnda gözükmektedir. Bunun haricinde deserialaze edebilmek için gerekli 
+dto tanýmlanmasý gerekmektedir. Dto tanýmlandýktan sonra gerekli default dto çaðýrýl ve model þeklinde verilerimizi çekebiliriz.
+
+173. Videoda Linkedýn rapid apiden istek atmak için linkedýn apisi buluyoruz. Ardýndan _DashboardSubscribePartial componentinde gerekli apiden kopyaladýðýmýz
+kodu yapýþtýrýyoruz ve apiden kopyaladýðýmýz result kýsmýndaki verileri kopyalýyoruz. özel þekilde yapýþtýrma edit içinde json formatýnda onu yapýþtýrýyoruz
+ve birer viewbaglere taþýmýþ oluyoruz.
