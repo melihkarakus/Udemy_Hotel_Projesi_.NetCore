@@ -402,3 +402,12 @@ dto tanýmlanmasý gerekmektedir. Dto tanýmlandýktan sonra gerekli default dto çað
 173. Videoda Linkedýn rapid apiden istek atmak için linkedýn apisi buluyoruz. Ardýndan _DashboardSubscribePartial componentinde gerekli apiden kopyaladýðýmýz
 kodu yapýþtýrýyoruz ve apiden kopyaladýðýmýz result kýsmýndaki verileri kopyalýyoruz. özel þekilde yapýþtýrma edit içinde json formatýnda onu yapýþtýrýyoruz
 ve birer viewbaglere taþýmýþ oluyoruz.
+
+175. Videoda Rolleri listelemek için bir controller tanýmlandý ve içine listeleme kodlarý eklenip ýndexden view oluþturuldu. Api dokunulmadý.
+
+176. Videoda Rolleri ekleme iþlemi için model klasörünün içine viewmodel tanýmlandý ve RoleControllerda Api þeklini kullanmadan role ekleme iþlemi 
+gerçekleþtirdik.
+
+Önemli!!!!
+177. Videoda Role silme ve güncelleme iþlemleri yaptýk. RoleController Update ve Delete içine gerekli kodlamalarý yaptýk. api kullanmadan sil güncelleme
+iþlemi yaptýk oraya bakmayý unutma.
