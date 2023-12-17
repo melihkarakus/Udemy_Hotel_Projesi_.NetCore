@@ -12,7 +12,7 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text bg-transparent border-0 pr-2 pr-sm-3" id="basic-addon1"><i class="mdi mdi-magnify"></i></span>
                 </div>
-                <input type="search" class="form-control" placeholder="Search Dashboard" aria-label="Search Dashboard">
+                <input type="search" class="form-control" placeholder="Search Dashboard" aria-label="Aranacak Kelime">
                 <div class="drop-down   d-md-none">
                     <form action="#">
                         <input type="text" class="form-control" placeholder="Search">
@@ -29,7 +29,7 @@
                     </a>
                     <div class="drop-down animated fadeIn dropdown-menu">
                         <div class="dropdown-content-heading d-flex justify-content-between">
-                            <span class="">3 New Messages</span>
+                            <span class="">Mesajlar</span>
 
                         </div>
                         <div class="dropdown-content-body">
@@ -86,7 +86,7 @@
                     </a>
                     <div class="drop-down animated fadeIn dropdown-menu dropdown-notfication">
                         <div class="dropdown-content-heading d-flex justify-content-between">
-                            <span class="">2 New Notifications</span>
+                            <span class="">@ViewBag.RoomCount Yeni Bildirim</span>
 
                         </div>
                         <div class="dropdown-content-body">
@@ -154,17 +154,17 @@
                         <div class="dropdown-content-body">
                             <ul>
                                 <li>
-                                    <a href="app-profile.html"><i class="icon-user"></i> <span>Profile</span></a>
+                                    <a href="/Settings/Index/"><i class="icon-user"></i> <span>Profile</span></a>
                                 </li>
                                 <li>
-                                    <a href="email-inbox.html"><i class="icon-envelope-open"></i> <span>Inbox</span> <div class="badge gradient-3 badge-pill badge-primary">3</div></a>
+                                    <a href="/AdminContact/Inbox"><i class="icon-envelope-open"></i> <span>Inbox</span> <div class="badge gradient-3 badge-pill badge-primary">3</div></a>
                                 </li>
 
                                 <hr class="my-2">
                                 <li>
-                                    <a href="page-lock.html"><i class="icon-lock"></i> <span>Lock Screen</span></a>
+                                    <a href="/Default/Index/"><i class="icon-lock"></i> <span>Anasayfa</span></a>
                                 </li>
-                                <li><a href="page-login.html"><i class="icon-key"></i> <span>Logout</span></a></li>
+                                <li><a href="/Login/SignOut"><i class="icon-key"></i> <span>Çıkış Yap</span></a></li>
                             </ul>
                         </div>
                     </div>

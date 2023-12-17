@@ -411,3 +411,33 @@ gerçekleþtirdik.
 Önemli!!!!
 177. Videoda Role silme ve güncelleme iþlemleri yaptýk. RoleController Update ve Delete içine gerekli kodlamalarý yaptýk. api kullanmadan sil güncelleme
 iþlemi yaptýk oraya bakmayý unutma.
+
+178. Videoda Role atama iþlemi yapabilmemiz için Rol için RoleAssignController tanýmladýk. Ardýndan tanýmlanan controllerda rkullanýcýlarý görüp
+rol atayabilmemiz için gerekli listeleme kodu yazýldý. Index oluþturuldu ve oluþturulan indexte model list üzerinde appuser sýnýfýna ulaþýlarak 
+verileri çektik. 
+
+179. Videoda kullanýcýnýn sahip olduðu rolleri getirme iþlemi yaptýk ve bunu RoleAssignController içinde getirme kodunu Assigrole parametresinin içinde
+yaptýk. Kodlarý incele.
+
+180. Videoda kullanýcýlarýn rollerinin olduðu bir role iþlem ekraný web admin sayfasýnda yansýtýldý.
+
+181. Videoda RoleAssignController ekranýnda httppost atrebütünde gerekli role atama kodlarý yazýlmýþtýr. Oraya bakabilirsin rol
+atama iþlemi yaptýk.
+
+182. Videoda Kullanýcýnýn SettingController ekranýnda profil bilgilerini güncellemesi için gerekli kodlamalar yapýldý. Kullanýcýnýn
+verileri getirdik bu videoda sonrakinde güncelleme iþlemi yapýlacaktýr.
+
+183. Videoda Kullanýcýnýn bilgilerini güncelleme iþlemi yaptýrdýk.
+
+!!!!!ÖNEMLÝ
+185. Videoda rezervasyonun statusun deðiþtirmek için yapýlan iþlemde ilk baþta DataAccesLayer ekranýnda IBookingDal da tanýmlanan
+özel methodda EfBookingDal içine o özel method geçildi ve gerekli kod iþlemi yapýldý bunu BusinessLayer ekranýnda ayný þekilde 
+IBookingService Baþýna t olarak ayný özel method yazýldý ve BookingManager da geçildi. Ardýndan BookingController api kýsmýnda 
+method geçilip iþlem yaptýrýldý.
+186. Videoda Consume iþlemine geçildi BookingController Frontend tarafýnda ve gerekli kod yazýldý hata alýndý.
+187. Videoda Swaggerdan gelen sorguyu kopyalayýp BookingController Frontend tarafýnda getAsync("buraya yapýþtýrdýk") sonrasýnda 
+api tarafý oldu sýra consume iþleminde. consume iþlemide halledilmiþ oldu.
+188. Videoda Ýptal etme iþlemi için 185. Videonun aynýsý yapýldý.
+189. Videoda Bekletme iþlemi için 185. videodanun aynýsý yapýldý.
+!!!!!ÖNEMLÝ 
+190. Videoda Güncelleme hazýrlýðý
